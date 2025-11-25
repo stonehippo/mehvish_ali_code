@@ -36,3 +36,8 @@ The Arduino IDE is the most common way to write, test, and deploy code for Ardui
 - [heartbeat monitor](./arduino/heartbeat/)
 - [photo sensor](./arduino/photosensor/)
 
+## Additional Resources
+
+pulsesensor.com has a lot of useful [Arduino examples for working with a pulse sensor](https://pulsesensor.com/pages/installing-our-playground-for-pulsesensor-arduino). I recommend checking those out if you want to see some advanced ideas for working with the sensor. The code is easy to read and should be easy enough to adapt to CircuitPython or another language.
+
+There is also an Adafruit guide for[ working with a pulse sensor and CircuitPython](https://learn.adafruit.com/sensor-plotting-with-mu-and-circuitpython/pulse). This guide is for a different sensor, but the concepts and code are pretty much universal. It also makes use of the now-defunct Mu Editor, but no worries, Thonny has the same functionality. 
