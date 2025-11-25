@@ -19,3 +19,4 @@ I recommend using [Thonny](https://thonny.org/). It is a simple, free, Python-fo
 # Code Examples
 
 - [hearbeat monitor](./heartbeat.py)
+- [photo sensor](./photosensor.py)
