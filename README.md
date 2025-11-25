@@ -10,7 +10,7 @@ For some general documentation on the Pico dev board and CircuitPython, this [Ad
 
 In addition to the hardware—the Pico dev board, the sensors, a breadboard, and some wires to connect them—you will need a text editor to edit the files on the Pico. This is best done with a code-specific editor or an integrated development environment (IDE).
 
-I recommend using [Thonny](https://thonny.org/). It is a simple, free, Python-focused IDE that has some built in tools for working with CircuitPython. This includes a handy tools:
+I recommend using [Thonny](https://thonny.org/). It is a simple, free, Python-focused IDE that has some built in tools for working with CircuitPython. This includes handy things like:
 
 - a REPL (read-eval-print-loop) view that makes quick hacks and code output easy
 - a plotter for visualizing numeric data from a sensor or device
