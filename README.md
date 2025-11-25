@@ -1,10 +1,14 @@
 # Code for Mehvish
 
-A collection of code examples using [CircuitPython](https://circuitpython.org), a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), and the [Elegoo Sensor Kit](https://www.elegoo.com/blogs/arduino-projects/elegoo-37-in-1-sensor-modules-kit-tutorial).
+A collection of code examples using a couple of different microcontrollers.
+
+In the [curcuitpython directory](./circuitpython), there are eamples using [CircuitPython](https://circuitpython.org), a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), and the [Elegoo Sensor Kit](https://www.elegoo.com/blogs/arduino-projects/elegoo-37-in-1-sensor-modules-kit-tutorial).
+
+In the [arduino directory](./arduino/), there are matching examples using the same Elegoo sensors, but this time written in [Arduino](https://arduino.cc) and using an [Arduino Uno R3](https://store.arduino.cc/products/arduino-uno-rev3) dev board.
 
 These examples are adapted from the Arduino code provided by Elegoo for use with the sensors from the kit.
 
-# Development Tools
+## Development Tools for CircuitPython
 
 For some general documentation on the Pico dev board and CircuitPython, this [Adafruit guide](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython) is a good place to start. It has a lot of code and wiring examples that can help you get started. I recommend reading through it and perhaps trying some of the examples before embarking on deeper work.
 
@@ -16,7 +20,19 @@ I recommend using [Thonny](https://thonny.org/). It is a simple, free, Python-fo
 - a plotter for visualizing numeric data from a sensor or device
 - coding tools like object inspectors and autocomplete
 
-# Code Examples
+## Development Tools for Arduino
 
-- [hearbeat monitor](./heartbeat.py)
-- [photo sensor](./photosensor.py)
+The Arduino IDE is the most common way to write, test, and deploy code for Arduino devices. It is available [here](https://www.arduino.cc/en/software/#ide).
+
+## Code Examples
+
+### CircuitPython
+
+- [hearbeat monitor](./circuitpython/heartbeat.py)
+- [photo sensor](./circuitpython/photosensor.py)
+
+### Arduino
+
+- [heartbeat monitor](./arduino/heartbeat/)
+- [photo sensor](./arduino/photosensor/)
+
